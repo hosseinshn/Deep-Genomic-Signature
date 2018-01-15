@@ -13,3 +13,4 @@ HWG = apply(sampleweights, 2, tf)
 DHW = as.data.frame(table(unlist(HWG)))
 
 cat(as.character(DHW$Var1), sep = "\n")
+
